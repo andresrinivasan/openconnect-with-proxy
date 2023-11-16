@@ -1,1 +1,3 @@
-# openconnect-with-proxy
+# OpenConnect with a Proxy
+
+At least a few times a year, I'm asked to connect through a VPN to gain access to access to protected resources. This isn't a big deal if it's an SSH or TLS tunnel but too often it's still something like Cisco AnyConnect or Palo Alto Network GlobalProtect. The expectation is I'm going to install a VPN client, accept all the side effects, and create an open connection between my local network and the remote network. Most recently, this translated into intalling the VPN on either MacOS or Windows

@@ -1,0 +1,12 @@
+services:
+  openconnect:
+    image: aw1cks/openconnect:latest
+    cap_add:
+      - NET_ADMIN
+    env_file: openconnect.env
+    ports:
+      - 3128:3128
+
+  squid:
+    image: ubuntu/squid:latest
+    network_mode: service:openconnect
